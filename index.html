@@ -4,21 +4,40 @@
     <meta charset="UTF-8">
     <title>Trekking history</title>
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
-<header class="top-header">History-slider ze zdjęciami i nazwą miejscowości</header>
-<section>
-<div class="main">
-    <div id="map">
 
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-12-12">
+            <header class="page-header">History-slider ze zdjęciami i nazwą miejscowości</header>
+        </div>
     </div>
 
-    <div id="slider"> Tu będzie slider ze zdjęciami</div>
+    <div class="row">
+        <div class="col-8-12">
+            <div class="main">
+                <div id="map">
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuLn3OQSLyhitWDbFhkeI9upHXZ6VBJZ8&callback=initMap"
+                            type="text/javascript"></script>
+                </div>
+            </div>
 
-    <div id="form">
-        <form>
+        </div>
+
+        <div class="col-4-12">
+
+            <div id="slider"> Tu będzie slider ze zdjęciami</div>
+
+            <div id="form">
+            <form>
             <label>Miejscowość</label>
             <input type="text" id="place"><br>
             <label>Data przybycia</label>
@@ -29,18 +48,27 @@
             <textarea></textarea><br>
             <!--klik na btn powinien dodać dane do?-->
             <button class="btn">Dodaj</button><br>
-        </form>
+            </form>
+            </div>
+
+            </div>
+        </div>
     </div>
 
+    <div class="row">
+        <div class="col-12-12">
+            <footer class=page-footer">2017 Made by Agnieszka Urbańska</footer>
+        </div>
+    </div>
 </div>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuLn3OQSLyhitWDbFhkeI9upHXZ6VBJZ8&callback=initMap"
-                   type="text/javascript"></script>
-</section>
-
-<footer>2017 Made by Agnieszka Urbańska</footer>
 
 <script src="js/app.js" type="text/javascript"></script>
 </body>
 
 </html>
+
+
+
+
+
