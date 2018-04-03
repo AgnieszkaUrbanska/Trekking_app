@@ -24,21 +24,15 @@
 }
 
 #form {
-    width: 40%;
+    width: 50%;
     line-height: 20px;
     border: 1px solid black;
-    background-color: cornflowerblue;
-
+}
+input, textarea {
+    width: 150px;
+    background: lightsteelblue;
 }
 
-#content {
-    height: 20px;
-}
-
-/*#slider {*/
-    /*background-image: url("pedro.jpg");*/
-    /**/
-/*}*/
 
 .col-4-12 {
     width: 43%;
@@ -51,10 +45,11 @@
     background-size: cover;
 }
 
-.page-header .page-footer {
-    color: darkgray;
-    width: 100vw;
-    height: 100px;
+.col-12-12 {
+    width: 100%;
+    height: 75px;
+    margin:0;
     border: 1px solid grey;
-    background: cornflowerblue;
+    background-color: cornflowerblue;
+    clear: both;
 }
